@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav1 {
+    background-color: #222f3e;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i {
+    margin: 0px 5px;
+}
+.nav1 a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.logo p {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav2 {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2 img {
+    height: 70px;
+    border-radius: 50%;
+}
+.nav2 a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 510;
+    padding: 10px 20px;
+}
+#home:hover,#about:hover,#blog:hover,#all_program:hover,#destination:hover,#services:hover,#business_role:hover {
+    border-bottom: 2px solid #222f3e;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(black-background-with-leaves-vegetation-texture.jpg);
+    background-size: cover;
+}
+.h-text {
+    max-width: 700px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+    text-align: center;
+}
+.h-text h1 {
+    font-size: 3rem;
+}
+.h-text span {
+    font-size: 3rem;
+}
+.h-text p {
+    font-size: 20px;
+    margin-top: 40px 0px;
+    line-height: 30px;
+}
+.h-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+    padding: 10px 20px;
+    margin: 20px 15px;
+    letter-spacing: 5px;
+}
+.main1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-didsss-2140977.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.business_div {
+    margin: 0px;
+    right: 10%;
+}
+.business_div h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+.business_div p {
+    font-size: 20px;
+    margin-top: 40px 0px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.business {
+    height: 300px;
+    width: 400px;
+    background-color: rgb(50, 50, 50, 0.6);
+    border-radius: 15px;
+    background: linear-gradient(rgb(0, 36, 72, 0.7)100%, #ff9832);
+    background-image: url(pexels-vlada-karpovich-4050319.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.div1 img,
+.div2 img {
+    height: 300px;
+    width: 400px;
+}
+.bus_cnt {
+    margin-top: 230px;
+    padding-left: 20px;
+}
+#business_study {
+    background-image: url(feabf1aa-48ef-4b5e-80da-dc0aa8c026f1.jpeg);
+    border: 3px solid #222f3e;
+    box-shadow: 3px 5px 10px;
+}
+#business_study:hover {
+    border: 3px inset rgb(144, 147, 147);
+}
+#business_profit {
+    background-image: url(https://media.istockphoto.com/id/1333748526/vector/the-profile-of-a-sad-businessman-the-man-is-desperate-a-nervous-breakdown.jpg?s=612x612&w=0&k=20&c=HalSYicm8XDrv5nFFWSGIcE-Z-hxCe2IcZXcxgsPWxw=);
+    border: 3px solid #222f3e;
+    box-shadow: 3px 5px 10px;
+}
+#business_profit:hover {
+    border: 3px inset rgb(144, 147, 147);
+    box-shadow: 3px 5px 10px;
+}
+#business_marketing {
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQHPI8M7yx5zTQ/article-cover_image-shrink_720_1280/0/1684227924024?e=2147483647&v=beta&t=5LPilojz9xBdSiqVVK6_MfkirzScYA8cbegSNsO33b4);
+    border: 3px solid #222f3e;
+    box-shadow: 3px 5px 10px;
+}
+#business_marketing:hover {
+    border: 3px inset rgb(144, 147, 147);
+}
+#business_stratige {
+    background-image: url(https://cdn.create.vista.com/api/media/small/39407125/stock-photo-hand-drawing-business-strategy-on-touch-screen-computer-as-conc);
+    border: 3px solid #222f3e;
+    box-shadow: 3px 5px 10px;
+}
+#business_stratige:hover {
+    border: 3px inset rgb(144, 147, 147);
+}
+#business_stock {
+    background-image: url(https://img.freepik.com/premium-photo/abstract-glowing-growing-business-graph-hologram-dark-background-planning-strategy-stock-market-business-growth-progress-financial-success-concept-3d-rendering_670147-2421.jpg);
+    border: 3px solid #222f3e;
+    box-shadow: 3px 5px 10px;
+}
+#business_stock:hover {
+    border: 3px inset rgb(144, 147, 147);
+}
+#business_rank {
+    background-image: url(https://www.shutterstock.com/image-photo/businessman-using-tablet-analyzing-sales-600nw-1788715886.jpg);
+    border: 3px solid #222f3e;
+    box-shadow: 3px 5px 10px;
+}
+#business_rank:hover {
+    border: 3px inset rgb(144, 147, 147);
+}
+.main2 {
+    height: 146vh;
+    width: 100%;
+    background-color: rgb(48, 48, 51);
+}
+.main2_div1 {
+    height: 50vh;
+    width: 100%;
+    padding-top: 130px;
+}
+.main2_allprogram_nav {
+
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main2_allprogram_nav a {
+    text-decoration: none;
+    justify-content: left;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 510;
+    padding: 10px 20px;
+}
+.main2_hori {
+    height: 450px;
+    width: 100%;
+    background-image: url(383158dd-fc33-4e3f-80f1-21af2c548df0.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.allprogram_div1,.allprogram_div2,.allprogram_div3,.allprogram_div4 {
+    height: 350px;
+    width: 300px;
+    background-color: rgb(91, 148, 158);
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.allprogram_div2 {
+    background-image: url(AdobeStock_143290547-408w.webp);
+}
+.allprogram_div3 {
+    background-image: url(880x495-spv-1600x900.jpg);
+}
+.allprogram_div4 {
+    background-image: url(luca-bravo-O453M2Liufs-unsplash.jpg);
+    background-size: cover;
+}
+.allprogram_div1 h1 {
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    color: #222f3e;
+}
+.allprogram_div1 h2 {
+    padding: 10px 20px;
+    font-family: monospace;
+}
+.allprogram_div1 p {
+    padding: 10px 20px;
+}
+.allprogram_div1 a {
+    padding: 10px 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.allprogram_div2 h2,.allprogram_div3 h2,.allprogram_div4 h2 {
+    margin-top: 250px;
+    padding-left: 20px;
+}
+.icon {
+    font-size: 40px;
+    padding-left: 20px;
+}
+#allprogram_div2 {
+    background-size: cover;
+    background-image: linear-gradient(360deg, rgba(54, 42, 42, 0.5), rgba(31, 55, 81, 0.221)), url(joel-muniz-A4Ax1ApccfA-unsplash.jpg);
+}
+.allprogram_div2 :hover,.allprogram_div3 :hover,.allprogram_div4 :hover {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#allprogram_div3 {
+    background-image: url(roman-synkevych-5wJ2GiYSifA-unsplash.jpg);
+    background-size: cover;
+}
+#allprogram_div4 {
+    background-image: url(tourists-on-ride-elephant-tour-260nw-323825486.webp);
+}
+.in_div1 {
+    height: 100px;
+    background-color: rgb(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.allprogram_div1 button,.allprogram_div2 button,.allprogram_div3 button,.allprogram_div4 button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: rgba(91, 148, 158, 1);
+    margin-left: 150px;
+    color: white;
+}
+#btn:hover {
+    background-color: rgb(84, 181, 198);
+}
+.main3_div1 {
+    background-image: url(pexels-kindelmedia-7667713.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.main3_cnt {
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+    margin: 0px 40%;
+    left: 50%;
+    top: 20%;
+}
+.main3_mid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+.main3_mid_box1,.main3_mid_box2 {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(87, 130, 125);
+    padding: 10px 20px;
+}
+.main3_cnt h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 60px;
+}
+.main3_cnt p {
+    font-size: 30px;
+}
+.main3_mid_box1 i,.main3_mid_box2 i {
+    color: blue;
+    padding: 20px 0px;
+}
+.main3_mid_box1 p,.main3_mid_box2 p {
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 0px;
+}
+.main3_mid_box1 h4,.main3_mid_box2 h4 {
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    margin-top: 40px;
+}
+.main3_profile,.main2_profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url(https://i.pinimg.com/736x/c7/68/ba/c768baca8eb33036c331ba4730643258.jpg);
+    position: absolute;
+    background-size: cover;
+    margin-left: 300px;
+    top: 65%;
+}
+.partners {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.our_partners p {
+    padding: 10px 0px;
+    margin-left: 700px;
+}
+#hr {
+    margin-top: 40px;
+}
+.footer_cnt {
+    height: 330px;
+    width: 100%;
+    background-color: #222f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: sans-serif;
+}
+.footer_div1,.footer_div2,.footer_div3,.footer_div4 {
+    height: 300px;
+    width: 200px;
+}
+.footer_div1 {
+    width: 330px;
+    margin-right: 200px;
+}
+#footer_div3 {
+    margin: 0px 50px;
+}
+.image {
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.para {
+    display: inline;
+    font-size: 30px;
+    padding: 0px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.footer_div1 p {
+    padding: 5px 10px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+#whatsapp {
+    height: 80%;
+}
+.footer_what,.footer_num {
+    font-size: 25px;
+    font-family: serif;
+}
+.footer_div2 {
+    padding: 10px 20px;
+}
+.footer_div2 h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 28px;
+}
+.footer_div2 p {
+    font-size: 19px;
+    line-height: 25px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.last {
+    width: 100%;
+    margin-left: 200px;
+}
+pre {
+    display: inline;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+}
+.last i {
+    font-size: 25px;
+    margin-right: 8px;
+    color: white;
+}
+.footer-below {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(60, 52, 52);
+}
