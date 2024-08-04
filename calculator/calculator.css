@@ -1,0 +1,69 @@
+
+.calcul{
+    height: 520px;
+    width: 425px;
+    background-color: rgb(222, 221, 221);
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 15px;
+    border: 5px solid rgb(212, 204, 204);
+    box-shadow: 1px 1px 9px;
+}
+.input{
+    border-radius: 15px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+input{
+    height: 70px;
+    width: 387px;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+.row{
+    height: 5rem;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+
+}
+table{
+    margin-left: 10px;
+}
+.row1_data,.row2_data,.row3_data,.row4_data,.row5_data{
+    width: 90px;
+    height: 70px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family :cursive;
+    border-radius: 10px;
+}
+.row1_data{
+    background-color: lightpink;
+}
+.row2_data:active{
+    background-color: rgb(246, 229, 233);
+}
+.row3_data:active{
+    background-color: rgb(246, 229, 233);
+}
+.row4_data:active{
+    background-color: rgb(246, 229, 233);
+}
+.row5_data:active{
+    background-color: rgb(246, 229, 233);
+}
